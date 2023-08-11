@@ -1,5 +1,5 @@
-const fs = require('fs-extra');
-const path = require('path');
+import fs from 'fs-extra';
+import path from 'path';
 
 const buildDirectory = path.join(__dirname, 'build'); // Change to 'dist' if that's your output directory
 const imgSourceDirectory = path.join(__dirname, 'src', 'assets', 'img');
