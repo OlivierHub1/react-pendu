@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { lettresList1, lettresList2, lettresList3, mots } from "./Pendu";
+import { lettresList1, lettresList2, lettresList3, mots, imgLink } from "./Pendu";
 import "./App.css";
 import "./component/Alert";
 import { Alert } from "./component/Alert";
@@ -43,7 +43,7 @@ function App() {
           <div className="col">
             <img
               className="mx-auto d-block rounded"
-              src={"src/assets/img/pendu0" + count + ".jpg"}
+              src={imgLink.at(count)}
               alt="pendu"
             />
           </div>
